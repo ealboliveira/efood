@@ -14,7 +14,7 @@ export const Imagem = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 64px;
+    top: 80px;
   }
 `
 
@@ -24,6 +24,7 @@ export const Titulo = styled.h2`
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  top: 220px;
+  top: 218px;
   color: #e66767;
+  font-weight: 900;
 `

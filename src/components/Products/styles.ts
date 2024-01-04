@@ -22,8 +22,8 @@ export const CardInfos = styled.div`
 `
 
 export const Title = styled.h2`
-  font-size: 21px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 700;
 `
 
 export const Container = styled.div`
@@ -36,6 +36,8 @@ export const Container = styled.div`
 export const Nota = styled.div`
   display: flex;
   align-items: center;
+  font-size: 18px;
+  font-weight: 700;
 
   img {
     width: 24px;
@@ -45,17 +47,20 @@ export const Nota = styled.div`
 
 export const Descricao = styled.p`
   width: 100%;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   margin-bottom: 16px;
+  font-weight: 400;
 `
 
 export const Button = styled.button`
-  width: 82px;
+  width: 90px;
   cursor: pointer;
   background-color: #e66767;
   border: none;
   padding: 6px;
+  font-weight: 700;
+  font-size: 14px;
 
   a {
     color: #fff;
@@ -66,9 +71,8 @@ export const TagContainer = styled.div`
   background-color: #e66767;
   color: #fff;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 700;
   padding: 8px;
-  border-radius: 8px;
   display: inline-block;
   margin-left: 16px;
 `

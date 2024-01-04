@@ -7,6 +7,7 @@ export const Container = styled.div`
 
 export const ImageFooter = styled(Imagem)`
   height: 300px;
+  border: 1px solid red;
 `
 
 export const RedesSociais = styled.div`
@@ -14,8 +15,11 @@ export const RedesSociais = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 96px;
-}
+  top: 120px;
+
+  img {
+    margin-right: 8px;
+  }
 `
 
 export const RodaPe = styled.p`
@@ -24,4 +28,5 @@ export const RodaPe = styled.p`
   text-align: center;
   color: #e66767;
   margin-top: 160px;
+  font-weight: 400;
 `
