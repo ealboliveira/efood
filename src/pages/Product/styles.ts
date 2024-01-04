@@ -10,6 +10,10 @@ export const Fundo = styled(Imagem)`
     top: 0;
     justify-content: space-between;
     color: #e66767;
+    font-family: Roboto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
 
     a {
       color: #e66767;
@@ -28,15 +32,17 @@ export const Apresentacao = styled(Imagem)`
 
 export const Titulo = styled.h3`
   position: absolute;
-  top: 0px;
-  font-size: 32px;
-  font-weight: 100;
+  top: -50px;
+  font-size: 33px;
   color: #fff;
+  line-height: normal;
+  font-weight: 100 !important;
 `
 export const Titulo2 = styled.h2`
   font-size: 32px;
   font-weight: bold;
-  top: 180px;
+  top: 144px;
   color: #fff;
   position: absolute;
+  font-weight: 900;
 `

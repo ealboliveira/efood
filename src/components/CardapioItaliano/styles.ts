@@ -24,14 +24,17 @@ export const ButtonAdicionar = styled(Button)`
   background-color: ${cores.branca};
   width: 100%;
   font-weight: bold;
+  font-size: 14px;
 `
 
 export const Titulo = styled(Title)`
   font-size: 16px;
   margin-top: 8px;
+  font-weight: 900;
 `
 
 export const Description = styled(Descricao)`
   font-size: 14px;
   margin-top: 8px;
+  font-weight: 400;
 `
