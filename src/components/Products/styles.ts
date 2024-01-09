@@ -69,10 +69,10 @@ export const Button = styled.button`
 
 export const TagContainer = styled.div`
   background-color: #e66767;
-  color: #fff;
+  color: #ffebd9;
   font-size: 12px;
   font-weight: 700;
-  padding: 8px;
+  padding: 3px;
   display: inline-block;
   margin-left: 16px;
 `

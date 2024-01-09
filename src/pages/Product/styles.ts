@@ -39,10 +39,12 @@ export const Titulo = styled.h3`
   font-weight: 100 !important;
 `
 export const Titulo2 = styled.h2`
+  font-family: 'Roboto', sans-serif;
   font-size: 32px;
-  font-weight: bold;
-  top: 144px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
   color: #fff;
   position: absolute;
-  font-weight: 900;
+  top: 144px;
 `

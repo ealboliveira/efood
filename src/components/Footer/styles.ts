@@ -7,7 +7,6 @@ export const Container = styled.div`
 
 export const ImageFooter = styled(Imagem)`
   height: 300px;
-  border: 1px solid red;
 `
 
 export const RedesSociais = styled.div`
@@ -29,4 +28,7 @@ export const RodaPe = styled.p`
   color: #e66767;
   margin-top: 160px;
   font-weight: 400;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  line-height: normal;
 `

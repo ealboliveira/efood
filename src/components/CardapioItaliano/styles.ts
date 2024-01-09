@@ -25,16 +25,24 @@ export const ButtonAdicionar = styled(Button)`
   width: 100%;
   font-weight: bold;
   font-size: 14px;
+  background: #ffebd9;
 `
 
 export const Titulo = styled(Title)`
+  color: #ffebd9;
+  font-family: Roboto;
   font-size: 16px;
-  margin-top: 8px;
+  font-style: normal;
   font-weight: 900;
+  line-height: normal;
+  margin-bottom: 8px;
 `
 
 export const Description = styled(Descricao)`
+  color: #ffebd9;
+  font-family: Roboto;
   font-size: 14px;
-  margin-top: 8px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 22px;
 `
